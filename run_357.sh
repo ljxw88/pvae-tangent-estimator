@@ -17,16 +17,22 @@ python3 pvae/main.py --model mnist --manifold PoincareBall --c 0.7  --latent-dim
 
 python3 pvae/main.py --model mnist --manifold PoincareBall --c 0.7  --latent-dim 10 --hidden-dim 600 --prior WrappedNormal --posterior WrappedNormal --dec Geo     --enc Wrapped --lr 5e-4 --epochs 80 --save-freq 80 --batch-size 128 --iwae-samples 5000
 
+python3 pvae/main.py --model mnist --manifold PoincareBall --c 0.7  --latent-dim 15 --hidden-dim 600 --prior WrappedNormal --posterior WrappedNormal --dec Geo     --enc Wrapped --lr 5e-4 --epochs 80 --save-freq 80 --batch-size 128 --iwae-samples 5000
+
 python3 pvae/main.py --model mnist --manifold PoincareBall --c 0.7  --latent-dim 20 --hidden-dim 600 --prior WrappedNormal --posterior WrappedNormal --dec Geo     --enc Wrapped --lr 5e-4 --epochs 80 --save-freq 80 --batch-size 128 --iwae-samples 5000
+
+python3 pvae/main.py --model mnist --manifold PoincareBall --c 0.7  --latent-dim 25 --hidden-dim 600 --prior WrappedNormal --posterior WrappedNormal --dec Geo     --enc Wrapped --lr 5e-4 --epochs 80 --save-freq 80 --batch-size 128 --iwae-samples 5000
 
 python3 pvae/main.py --model mnist --manifold PoincareBall --c 0.7  --latent-dim 30 --hidden-dim 600 --prior WrappedNormal --posterior WrappedNormal --dec Geo     --enc Wrapped --lr 5e-4 --epochs 80 --save-freq 80 --batch-size 128 --iwae-samples 5000
 
+python3 pvae/main.py --model mnist --manifold PoincareBall --c 0.7  --latent-dim 35 --hidden-dim 600 --prior WrappedNormal --posterior WrappedNormal --dec Geo     --enc Wrapped --lr 5e-4 --epochs 80 --save-freq 80 --batch-size 128 --iwae-samples 5000
+
 python3 pvae/main.py --model mnist --manifold PoincareBall --c 0.7  --latent-dim 40 --hidden-dim 600 --prior WrappedNormal --posterior WrappedNormal --dec Geo     --enc Wrapped --lr 5e-4 --epochs 80 --save-freq 80 --batch-size 128 --iwae-samples 5000
 
-python3 pvae/main.py --model mnist --manifold PoincareBall --c 0.7  --latent-dim 50 --hidden-dim 600 --prior WrappedNormal --posterior WrappedNormal --dec Geo     --enc Wrapped --lr 5e-4 --epochs 80 --save-freq 80 --batch-size 128 --iwae-samples 5000
+# python3 pvae/main.py --model mnist --manifold PoincareBall --c 0.7  --latent-dim 50 --hidden-dim 600 --prior WrappedNormal --posterior WrappedNormal --dec Geo     --enc Wrapped --lr 5e-4 --epochs 80 --save-freq 80 --batch-size 128 --iwae-samples 5000
 
-python3 pvae/main.py --model mnist --manifold PoincareBall --c 0.7  --latent-dim 60 --hidden-dim 600 --prior WrappedNormal --posterior WrappedNormal --dec Geo     --enc Wrapped --lr 5e-4 --epochs 80 --save-freq 80 --batch-size 128 --iwae-samples 5000
+# python3 pvae/main.py --model mnist --manifold PoincareBall --c 0.7  --latent-dim 60 --hidden-dim 600 --prior WrappedNormal --posterior WrappedNormal --dec Geo     --enc Wrapped --lr 5e-4 --epochs 80 --save-freq 80 --batch-size 128 --iwae-samples 5000
 
-python3 pvae/main.py --model mnist --manifold PoincareBall --c 0.7  --latent-dim 70 --hidden-dim 600 --prior WrappedNormal --posterior WrappedNormal --dec Geo     --enc Wrapped --lr 5e-4 --epochs 80 --save-freq 80 --batch-size 128 --iwae-samples 5000
+# python3 pvae/main.py --model mnist --manifold PoincareBall --c 0.7  --latent-dim 70 --hidden-dim 600 --prior WrappedNormal --posterior WrappedNormal --dec Geo     --enc Wrapped --lr 5e-4 --epochs 80 --save-freq 80 --batch-size 128 --iwae-samples 5000
 
-python3 pvae/main.py --model mnist --manifold PoincareBall --c 0.7  --latent-dim 80 --hidden-dim 600 --prior WrappedNormal --posterior WrappedNormal --dec Geo     --enc Wrapped --lr 5e-4 --epochs 80 --save-freq 80 --batch-size 128 --iwae-samples 5000
+# python3 pvae/main.py --model mnist --manifold PoincareBall --c 0.7  --latent-dim 80 --hidden-dim 600 --prior WrappedNormal --posterior WrappedNormal --dec Geo     --enc Wrapped --lr 5e-4 --epochs 80 --save-freq 80 --batch-size 128 --iwae-samples 5000

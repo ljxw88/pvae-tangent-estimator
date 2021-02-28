@@ -1,4 +1,4 @@
-for i in '40' '60' '80'
+for i in '40'
 do
     for j in '1' '2' '3' '4'
     do

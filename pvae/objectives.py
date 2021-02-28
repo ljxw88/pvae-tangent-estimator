@@ -13,13 +13,15 @@ def vae_objective(model, x, K=1, beta=1.0, components=False, analytical_kl=False
 
     pz = model.pz(*model.pz_params)
     #was
-    #kld = torch.abs(dist.kl_divergence(qz_x, pz).unsqueeze(0).sum(-1) if \
-    #    has_analytic_kl(type(qz_x), model.pz) and analytical_kl else \
-    #    qz_x.log_prob(zs).sum(-1) - pz.log_prob(zs).sum(-1))
-    new_zs = (model.pz(*model.pz_params)).rsample(torch.Size([K]))
+    logk = pz.log_prob(zs).sum(-1) - qz_x.log_prob(zs).sum(-1)
+    k3 = (logk.exp() - 1) - logk
     kld = dist.kl_divergence(qz_x, pz).unsqueeze(0).sum(-1) if \
-        has_analytic_kl(type(qz_x), model.pz) and analytical_kl else \
-        (torch.abs(qz_x.log_prob(zs).sum(-1) - pz.log_prob(zs).sum(-1)) + torch.abs(qz_x.log_prob(new_zs).sum(-1) - pz.log_prob(new_zs).sum(-1)))/2
+       has_analytic_kl(type(qz_x), model.pz) and analytical_kl else k3
+    #    qz_x.log_prob(zs).sum(-1) - pz.log_prob(zs).sum(-1)
+    # new_zs = (model.pz(*model.pz_params)).rsample(torch.Size([K]))
+    # kld = dist.kl_divergence(qz_x, pz).unsqueeze(0).sum(-1) if \
+    #     has_analytic_kl(type(qz_x), model.pz) and analytical_kl else \
+    #     (torch.abs(qz_x.log_prob(zs).sum(-1) - pz.log_prob(zs).sum(-1)) + torch.abs(qz_x.log_prob(new_zs).sum(-1) - pz.log_prob(new_zs).sum(-1)))/2
 
     obj = -lpx_z.mean(0).sum() + beta * kld.mean(0).sum()
     return (qz_x, px_z, lpx_z, kld, obj) if components else obj

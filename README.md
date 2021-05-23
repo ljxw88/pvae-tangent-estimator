@@ -20,7 +20,18 @@
 ## Run experiments
 
 ### MNIST dataset
-- curvature=0.1, latent_dim=40: ./run_vae_40_1.sh
+- curvature=0.1, latent_dim=40: `./run_vae_40_1.sh`
+- curvature=0.2, latent_dim=40: `./run_vae_40_2.sh`
+- curvature=0.7, latent_dim=40: `./run_vae_40_3.sh`
+- curvature=1.4, latent_dim=40: `./run_vae_40_4.sh`
+- curvature=0.1, latent_dim=60: `./run_vae_60_1.sh`
+- curvature=0.2, latent_dim=60: `./run_vae_60_2.sh`
+- curvature=0.7, latent_dim=60: `./run_vae_60_3.sh`
+- curvature=1.4, latent_dim=60: `./run_vae_60_4.sh`
+- curvature=0.1, latent_dim=80: `./run_vae_80_1.sh`
+- curvature=0.2, latent_dim=80: `./run_vae_80_2.sh`
+- curvature=0.7, latent_dim=80: `./run_vae_80_3.sh`
+- curvature=1.4, latent_dim=80: `./run_vae_80_4.sh`
 
 ### Custom dataset via csv file (placed in `/data`, no header, integer labels on last column)
 ```

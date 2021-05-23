@@ -20,10 +20,7 @@
 ## Run experiments
 
 ### MNIST dataset
-```
-python3 pvae/main.py --model mnist --manifold Euclidean             --latent-dim 2 --hidden-dim 600 --prior Normal        --posterior Normal        --dec Wrapped --enc Wrapped --lr 5e-4 --epochs 80 --save-freq 80 --batch-size 128 --iwae-samples 5000
-python3 pvae/main.py --model mnist --manifold PoincareBall --c 0.7  --latent-dim 2 --hidden-dim 600 --prior WrappedNormal --posterior WrappedNormal --dec Geo     --enc Wrapped --lr 5e-4 --epochs 80 --save-freq 80 --batch-size 128 --iwae-samples 5000
-```
+- curvature=0.1, latent_dim=40: ./run_vae_40_1.sh
 
 ### Custom dataset via csv file (placed in `/data`, no header, integer labels on last column)
 ```

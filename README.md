@@ -1,7 +1,7 @@
 # A Remedy for Negative Monte Carlo Estimated Values of KL-Divergence
 
 ## Prerequisites
-`pip install -r -U requirements.txt` or `python3 setup.py install --user`
+- Install Prerequisite packages: `pip install -r -U requirements.txt`
 
 ## Models
 

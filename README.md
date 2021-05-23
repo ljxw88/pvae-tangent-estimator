@@ -1,20 +1,4 @@
-# NKL-Divergence: A Remedy for Negative Monte Carlo Estimated Values of KL-Divergence
-<!---
-## [NKL-Divergence: A Remedy for Negative Monte Carlo Estimated Values of KL-Divergence]()
-
-
-![demonstrative figure](images/tree.png)
-
-Code for reproducing the experiments in the paper:
-```
-@inproceedings{mathieu2019poincare,
-  title={Continuous Hierarchical Representations with Poincar\'e Variational Auto-Encoders},
-  author={Mathieu, Emile and Le Lan, Charline and Maddison, Chris J. and Tomioka, Ryota and Whye Teh, Yee},
-  booktitle={Advances in Neural Information Processing Systems},
-  year={2019}
-}
-```
--->
+A Remedy for Negative Monte Carlo Estimated Values of KL-Divergence
 
 ## Prerequisites
 `pip install -r -U requirements.txt` or `python3 setup.py install --user`

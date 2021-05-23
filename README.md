@@ -100,3 +100,7 @@ python3 pvae/main.py --model csv --data-param CSV_NAME --data-size NB_FEATURES
 
 ## Acknowledgement
 Special thanks to Mr. Zhenyue Qin in Australian National University; Mrs. Yang Liu and Dr. Saeed Anwar in Data61 CSIRO; Dr. Pan Ji in OPPO US Research Center.
+
+## Additional Links
+- Geoopt: Riemannian Optimization in PyTorch: [[Link](https://github.com/geoopt/geoopt)]
+- Monte Carlo theory, methods and examples: [[Link](https://statweb.stanford.edu/~owen/mc/)]

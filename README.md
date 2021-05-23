@@ -1,4 +1,4 @@
-A Remedy for Negative Monte Carlo Estimated Values of KL-Divergence
+# A Remedy for Negative Monte Carlo Estimated Values of KL-Divergence
 
 ## Prerequisites
 `pip install -r -U requirements.txt` or `python3 setup.py install --user`

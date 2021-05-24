@@ -104,3 +104,4 @@ Special thanks to Mr. Zhenyue Qin in Australian National University; Mrs. Yang L
 ## Additional Links
 - Geoopt: Riemannian Optimization in PyTorch: [[Link](https://github.com/geoopt/geoopt)]
 - Monte Carlo theory, methods and examples: [[Link](https://statweb.stanford.edu/~owen/mc/)]
+- You are also welcome to read my thesis: [[Link](https://jiaxu.page/pdfs/Dissertation.pdf)]

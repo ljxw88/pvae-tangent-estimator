@@ -4,7 +4,7 @@ This repo is code for a Tensorflow implementation of Poincare Variational Auto-E
 ## Prerequisites
 - Install Prerequisite packages: `pip install -r -U requirements.txt`
 
-## Backbone Models
+## Backbone Model
 
 ### The Poincare-VAE (Mathieu et al (2019) [[Paper](https://arxiv.org/abs/1901.06033)], [[Repo](https://github.com/emilemathieu/pvae)]):
 - Curvature (`--c`): 1.0

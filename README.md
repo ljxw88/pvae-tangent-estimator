@@ -1,5 +1,5 @@
 # A Remedy for Negative Monte Carlo Estimated Values of KL-Divergence
-This repo is code for a Tensorflow implementation of Poincare Variational Auto-Encoder. KL-divergence inside Evidence Lower-Bound is replaced by Tangent/Absolute-KL-divergence.
+This repo is code for a Pytorch implementation of Poincare Variational Auto-Encoder. KL-divergence inside Evidence Lower-Bound is replaced by Tangent/Absolute-KL-divergence.
 
 ## Prerequisites
 - Install Prerequisite packages: `pip install -r -U requirements.txt`
